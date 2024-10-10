@@ -148,14 +148,8 @@ input[type="submit"] {
 input[type="checkbox"] {
    margin-right: 10px; /*adds space between checkbox and the age verification labeling */
 }
-#input-age-verification {
-   align-items: center;
-   display: flex;
-   margin-bottom: 20px;
-   justify-content: center;
-}
 #vg {
-   width: 800px;
+   width: 300px;
    height: auto;
    margin: 0 auto;
    display: block;
