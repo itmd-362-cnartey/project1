@@ -154,6 +154,12 @@ input[type="checkbox"] {
    margin-bottom: 20px;
    justify-content: center;
 }
+#vg {
+   width: 800px;
+   height: auto;
+   margin: 0 auto;
+   display: block;
+}
 /* ===== STATE STYLES ======= */
 @media (max-width: 600px) {
    form {
