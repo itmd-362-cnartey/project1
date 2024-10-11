@@ -145,14 +145,21 @@ input[type="submit"] {
    cursor: pointer;
    background-color: #333333;
 } 
-input[type="checkbox"] {
-   margin-right: 10px; /*adds space between checkbox and the age verification labeling */
-}
 #vg {
    width: 300px;
    height: auto;
    margin: 0 auto;
    display: block;
+}
+button {
+  width: 100%;
+  background-color: #d42949;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto 0 auto; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 /* ===== STATE STYLES ======= */
 @media (max-width: 600px) {
