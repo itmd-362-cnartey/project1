@@ -101,7 +101,7 @@ header p {
     content: '\00bb'; 
     position: absolute;
     top: 20px;
-    right: 25px;
+    right: 15px;
     font-size: 2.5rem;
     transition: opacity 0.5s;
     opacity: 1;
@@ -111,7 +111,7 @@ header p {
     content: '\00bb';
     position: absolute;
     top: 20px;
-    right: 25px;
+    right: 15px;
     opacity: 0;
     font-size: 2.5rem;
     transition: opacity 0.5s;
