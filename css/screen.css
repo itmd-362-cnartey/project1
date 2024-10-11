@@ -11,6 +11,7 @@ body {
    margin: 0 auto;
    padding: 20px;
 }
+
 form {
    margin: 0 auto;
    max-width: 400px;
@@ -20,10 +21,12 @@ form {
    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
    text-align: center;
 }
+
 header {
     text-align: center;
     margin-bottom: 40px;
 }
+
 header h1 {
    font-family: "Libre Barcode 39 Text", system-ui;
    font-size: 4rem;
@@ -32,13 +35,16 @@ header h1 {
    margin-bottom: 20px;
    margin-top: 20px;
 }
+
 header p {
    font-weight: bold;
    font-size: 1.5rem;
 }
+
 .ctxgroup {
    margin-bottom: 15px;
 }
+
 .ctxlabel{
    font-family: "Zen Dots", sans-serif;
    display:block;
@@ -49,6 +55,7 @@ header p {
    text-align: center;
    margin-top: 20px;
 }
+
 .form-input {
    width: 100%;
    padding: 12px;
@@ -58,11 +65,13 @@ header p {
    font-size: 3rem;
    box-sizing: border-box;
 }
+
 .form-input:focus {
    border-color: #d9cee5;
    outline: none;
    box-shadow: 0 0 5px rgb(254 254 254 / 50%);
 }
+
 /*Button Animation */
 .signup-button {
     font-family: "Zen Dots", sans-serif;
@@ -82,7 +91,6 @@ header p {
     max-width: 200px;
     position: relative;
 }
-
 
 .signup-button:hover {
     padding-right: 45px;
