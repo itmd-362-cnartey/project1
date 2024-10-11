@@ -3,7 +3,8 @@ form.addEventListener('submit', function(event){
 	event.preventDefault();
 	
 	//collects contact form data
-	const name = document.getElementByID('name').value;
+	const firstname = document.getElementByID('firstname').value;
+	const lastname = document.getElementByID('lastname').value;
 	const email = document.getElementByID('email').value;
 	const key = document.getElementByID('key').value;
 	
