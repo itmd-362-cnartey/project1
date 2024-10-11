@@ -67,8 +67,8 @@ header p {
 }
 
 .form-input:focus {
-   border-color: #d9cee5;
-   outline: none;
+   border-color: #14f02d;
+   outline: thick double #09cae7;
    box-shadow: 0 0 5px rgb(254 254 254 / 50%);
 }
 
