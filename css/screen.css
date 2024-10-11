@@ -131,7 +131,7 @@ footer{
 }
 
 /*Test for Team options */
-.checkbox-group {
+.radiogroup {
    display: flex;
    gap: 10px;
    align-items: center;
@@ -144,7 +144,7 @@ footer{
    align-items: center;  
 }
 
-.checkbox-group input[type="checkbox"] {
+.radiogroup input[type="radio"] {
    margin-right: 10px;
    margin-bottom: 10px; 
    width: 20px; 
