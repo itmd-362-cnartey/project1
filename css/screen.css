@@ -25,7 +25,7 @@ header {
     margin-bottom: 40px;
 }
 header h1 {
-   font-family: "Sixtyfour Convergence", sans-serif;
+   font-family: "Libre Barcode 39 Text", system-ui;
    font-size: 4rem;
    color: #444;
    font-weight: bold;
@@ -40,6 +40,7 @@ header p {
    margin-bottom: 15px;
 }
 .ctxlabel{
+   font-family: "Zen Dots", sans-serif;
    display:block;
    margin-bottom: 8px;
    font-weight: bold;
