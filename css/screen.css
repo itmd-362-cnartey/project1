@@ -2,7 +2,7 @@ body {
    font-family: "Roboto", Arial, sans-serif;
    margin: 0;
    padding: 15px;
-   background-image: conic-gradient(purple, blue, indigo);
+   background-image: conic-gradient(#1054ab, #0e0b0b, #000000,#d00404);
    text-align: center;
 }
 
@@ -14,7 +14,7 @@ body {
 form {
    margin: 0 auto;
    max-width: 400px;
-   background-color: #ffffff;
+   background-image: linear-gradient(#0774ab,#c01212,#3d3a3a);
    padding: 20px;
    border-radius: 10px;
    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -25,11 +25,16 @@ header {
     margin-bottom: 40px;
 }
 header h1 {
-   font-size: 2rem;
+   font-family: "Sixtyfour Convergence", sans-serif;
+   font-size: 4rem;
    color: #444;
    font-weight: bold;
    margin-bottom: 20px;
    margin-top: 20px;
+}
+header p {
+   font-weight: bold;
+   font-size: 1.5rem;
 }
 .ctxgroup {
    margin-bottom: 15px;
@@ -38,14 +43,15 @@ header h1 {
    display:block;
    margin-bottom: 8px;
    font-weight: bold;
-   color: #444;
+   color: #000000;
    text-align: center;
    margin-top: 20px;
 }
 .form-input {
    width: 100%;
    padding: 12px;
-   border: 1px solid #ccc;
+   background-color: #292525;
+   border: 1px solid #000000;
    border-radius: 4px;
    font-size: 1rem;
    box-sizing: border-box;
@@ -59,9 +65,9 @@ header h1 {
 .signup-button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #212121;
     border: none;
-    color: #FFFFFF;
+    color: #e1e1e1;
     text-align: center;
     font-size: 1.2rem;
     padding: 15px 30px;
