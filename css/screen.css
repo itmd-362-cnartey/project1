@@ -1,8 +1,8 @@
 body {
-   font-family: "Roboto", Arial, sans-serif;
+   font-family: "Zen Dots", sans-serif;
    margin: 0;
    padding: 15px;
-   background-image: conic-gradient(#1054ab, #0e0b0b, #000000,#d00404);
+   background-image: radial-gradient(#008af1,#5b19bd);
    text-align: center;
 }
 
@@ -14,7 +14,7 @@ body {
 form {
    margin: 0 auto;
    max-width: 400px;
-   background-image: linear-gradient(#0774ab,#c01212,#3d3a3a);
+   background-image: linear-gradient(#30167f,#72588bbf,#080808);
    padding: 20px;
    border-radius: 10px;
    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ header {
 header h1 {
    font-family: "Libre Barcode 39 Text", system-ui;
    font-size: 4rem;
-   color: #444;
+   color: #000000;
    font-weight: bold;
    margin-bottom: 20px;
    margin-top: 20px;
@@ -43,38 +43,41 @@ header p {
    font-family: "Zen Dots", sans-serif;
    display:block;
    margin-bottom: 8px;
+   font-size: 1.2rem;
    font-weight: bold;
-   color: #000000;
+   color: #0a0e15;
    text-align: center;
    margin-top: 20px;
 }
 .form-input {
    width: 100%;
    padding: 12px;
-   background-color: #292525;
+   background-color: #c2ceff;
    border: 1px solid #000000;
    border-radius: 4px;
-   font-size: 1rem;
+   font-size: 3rem;
    box-sizing: border-box;
 }
 .form-input:focus {
-   border-color: #66afe9;
+   border-color: #d9cee5;
    outline: none;
-   box-shadow: 0 0 5px rgba(103, 176, 233, 0.5);
+   box-shadow: 0 0 5px rgb(254 254 254 / 50%);
 }
 /*Button Animation */
 .signup-button {
+    font-family: "Zen Dots", sans-serif;
     display: inline-block;
     border-radius: 4px;
-    background-color: #212121;
+    background-color: #272525;
     border: none;
-    color: #e1e1e1;
+    color: #1c991c;
     text-align: center;
     font-size: 1.2rem;
     padding: 15px 30px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    margin-top: 15px;
     width: 100%;
     max-width: 200px;
     position: relative;
@@ -82,14 +85,16 @@ header p {
 
 
 .signup-button:hover {
-    padding-right: 35px;
+    padding-right: 45px;
+   box-shadow: 0 0 20px rgb(49 205 71 / 70%);
 }
 
 .signup-button:hover:after {
     content: '\00bb'; 
     position: absolute;
-    top: 0;
-    right: 15px;
+    top: 10px;
+    right: 25px;
+    font-size: 2.5rem;
     transition: opacity 0.5s;
     opacity: 1;
 }
@@ -97,15 +102,17 @@ header p {
 .signup-button:after {
     content: '\00bb';
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 10px;
+    right: 25px;
     opacity: 0;
+    font-size: 2.5rem;
     transition: opacity 0.5s;
 }
 
 footer{
    text-align: center;
    margin-top: 20px;
+   color: #444;
 }
 
 #vg {
@@ -115,14 +122,36 @@ footer{
    display: block;
 }
 
+/* ===== MEDIA STYLES ======= */
+@media only screen and (min-width: 768px) {
+   header h1{
+      font-size: 2.5rem;
+   }
 
-/* ===== STATE STYLES ======= */
-@media (max-width: 600px) {
-   form {
-      padding: 15px;
+   .form-group {
+      margin-bottom: 30px;
    }
-   input[type="text"], input[type="email"], input[type="submit"], textarea {
-      padding: 12px;
-      font-size: 14px;
+
+   .signup-button {
+      font-size: 1.5rem;
+      padding: 15px 25px;
    }
+}
+
+@media only screen and (min-width: 1024px) {
+   #wrapper {
+      padding: 40px;
+   }
+   
+   header h1 {
+      font-size: 3rem;  
+   }
+   
+   .form-input {
+      font-size: 1.1rem;  
+   }
+   
+   .signup-button {
+      font-size: 1.6rem;  
+    }
 }
