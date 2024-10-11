@@ -111,6 +111,11 @@ body {
    background-color: #f0f0f0; /* add desired light grey background */
    text-align: center;
 }
+#header{
+   width: 960px;
+   margin: 0 auto;
+   padding: 20px;
+}
 form {
    margin: 0 auto;
    max-width: 400px;
@@ -120,31 +125,74 @@ form {
    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
    text-align: center;
 }
-h1 {
+header h1 {
+   font-size: 2.5rem;
+   color: #444;
    font-weight: bold;
 }
-input[type="text"], input[type="email"], textarea {
-   padding: 10px;
-   width: 100%;
-   background-color: #eaeaea;
-   color: white;
-   border: none;
-   border-radius: 8px;
-   font-size: 16px;
-   cursor: pointer;
-   box-sizing: border-box;
+.ctxgroup {
+   margin-bottom: 15px;
 }
-/*Submit Style */
-input[type="submit"] {
+.ctxlabel{
+   display:block;
+   margin-bottom: 8px;
+   font-weight: bold;
+   color: #444;
+}
+.form-input {
    width: 100%;
-   padding: 15px;
-   color: white;
-   border: none;
-   border-radius: 8px;
-   font-size: 15px;
-   cursor: pointer;
-   background-color: #333333;
-} 
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 1rem;
+}
+
+.form-input:focus {
+   border-color: #66afe9;
+   outline: none;
+   box-shadow: 0 0 5px rgba(103, 176, 233, 0.5);
+}
+/*Button Animation */
+.signup-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    width: 100%;
+    max-width: 200px;
+    position: relative;
+}
+
+
+.signup-button:hover {
+    padding-right: 35px;
+}
+
+.signup-button:hover:after {
+    content: '\00bb'; 
+    position: absolute;
+    top: 0;
+    right: 15px;
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.signup-button:after {
+    content: '\00bb';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
 #vg {
    width: 300px;
    height: auto;
@@ -152,45 +200,7 @@ input[type="submit"] {
    display: block;
 }
 
-.button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #000000;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-}
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    content: '\00bb'; 
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 25px; /* Space added when hovering */
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0; /* Chevron appears when hovering */
-}
 /* ===== STATE STYLES ======= */
 @media (max-width: 600px) {
    form {
