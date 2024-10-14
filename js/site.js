@@ -7,6 +7,7 @@ form.addEventListener('submit', function(event){
 	const lastname = document.getElementByID('lastname').value;
 	const email = document.getElementByID('email').value;
 	const key = document.getElementByID('key').value;
+	const team = document.getElementByID('team').value;
 	const teamA = document.getElementByID('teamA').checked;
 	const teamB = document.getElementById('teamB').checked;
 	const teamC = document.getElementById('teamC').checked;
