@@ -1,206 +1,206 @@
 body {
-    font-family: "Zen Dots", sans-serif;
-    margin: 0;
-    padding: 15px;
-    background-image: radial-gradient(#008af1,#5b19bd);
-    text-align: center;
+  font-family: "Zen Dots", sans-serif;
+  margin: 0;
+  padding: 15px;
+  background-image: radial-gradient(#008af1,#5b19bd);
+  text-align: center;
 }
 
 #wrapper{
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 form {
-    margin: 0 auto;
-    max-width: 400px;
-    background-image: linear-gradient(#30167f,#72588bbf,#080808);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+  background-image: linear-gradient(#30167f,#72588bbf,#080808);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 header {
-    text-align: center;
-    margin-bottom: 10px;
+	text-align: center;
+  margin-bottom: 10px;
 }
 
 header h1 {
-    font-family: "Libre Barcode 39 Text", system-ui;
-    font-size: 4rem;
-    color: #000000;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 20px;
+	font-family: "Libre Barcode 39 Text", system-ui;
+  font-size: 4rem;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 header p {
-    font-weight: bold;
-    font-size: 1.5rem;
+	font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .ctxgroup {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .ctxlabel{
-    font-family: "Zen Dots", sans-serif;
-    display:block;
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #0a0e15;
-    text-align: center;
-    margin-top: 20px;
+	font-family: "Zen Dots", sans-serif;
+  display:block;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+	font-weight: bold;
+  color: #0a0e15;
+	text-align: center;
+  margin-top: 20px;
 }
 
 .form-input {
-    width: 100%;
-    padding: 12px;
-    background-color: #c2ceff;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    font-size: 3rem;
-    box-sizing: border-box;
+	width: 100%;
+  padding: 12px;
+  background-color: #c2ceff;
+  border: 1px solid #000000;
+	border-radius: 4px;
+  font-size: 3rem;
+	box-sizing: border-box;
 }
 
 .form-input:focus {
-    border-color: #14f02d;
-    outline: thick double #09cae7;
-    box-shadow: 0 0 5px rgb(254 254 254 / 50%);
+	border-color: #14f02d;
+  outline: thick double #09cae7;
+	box-shadow: 0 0 5px rgb(254 254 254 / 50%);
 }
 
 /*Button Animation */
 .signup-button {
-    font-family: "Zen Dots", sans-serif;
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #272525;
-    border: none;
-    color: #1c991c;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 15px 30px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    margin-top: 15px;
-    width: 100%;
-    max-width: 200px;
-    position: relative;
+	font-family: "Zen Dots", sans-serif;
+	display: inline-block;
+  border-radius: 4px;
+  background-color: #272525;
+  border: none;
+	color: #1c991c;
+  text-align: center;
+	font-size: 1.2rem;
+  padding: 15px 30px;
+	transition: all 0.5s;
+  cursor: pointer;
+	margin: 5px;
+  margin-top: 15px;
+	width: 100%;
+  max-width: 200px;
+	position: relative;
 }
 
 .signup-button:hover {
-    padding-right: 45px;
-    box-shadow: 0 0 20px rgb(49 205 71 / 70%);
+	padding-right: 45px;
+  box-shadow: 0 0 20px rgb(49 205 71 / 70%);
 }
 
 .signup-button:hover:after {
-    content: '\00bb'; 
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    font-size: 2.5rem;
-    transition: opacity 0.5s;
-    opacity: 1;
+  content: '\00bb'; 
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 2.5rem;
+  transition: opacity 0.5s;
+  opacity: 1;
 }
 
 .signup-button:after {
-    content: '\00bb';
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    opacity: 0;
-    font-size: 2.5rem;
-    transition: opacity 0.5s;
+	content: '\00bb';
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  opacity: 0;
+  font-size: 2.5rem;
+  transition: opacity 0.5s;
 }
 
 footer{
-    text-align: center;
-    margin-top: 20px;
-    color: #000000;
+	text-align: center;
+  margin-top: 20px;
+  color: #000000;
 }
 
 #vg {
-    width: 300px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 10px;
+	width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
 }
 
 /*Test for Team options */
 .radiogroup {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: space-around;
+	display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .logolabel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
+	display: flex;
+  flex-direction: column;
+  align-items: center;  
 }
 
 .radiogroup input[type="radio"] {
-    margin-right: 10px;
-    margin-bottom: 10px; 
-    width: 20px; 
-    height: 20px; 
+	margin-right: 10px;
+  margin-bottom: 10px; 
+  width: 20px; 
+  height: 20px; 
 }
 
 .team-logo {
-    width: 120px; 
-    height: auto; 
-    margin-bottom: 5px;
+	width: 120px; 
+  height: auto; 
+  margin-bottom: 5px;
 }
 
 /* ===== MEDIA STYLES ======= */
 @media only screen and (min-width: 768px) {
-    header h1{
-        font-size: 4rem;
-        text-align: center;
-        width: auto;
-    }
+  header h1{
+    font-size: 4rem;
+    text-align: center;
+    width: auto;
+  }
 
-    .form-group {
-        margin-bottom: 30px;
-    }
+  .form-group {
+  	margin-bottom: 30px;
+  }
 
-    .signup-button {
-        font-size: 1.5rem;
-        padding: 15px 25px;
-    }
+  .signup-button {
+    font-size: 1.5rem;
+    padding: 15px 25px;
+  }
    
-    .team-logo {
-   	    width: 80%;
-    }
+  .team-logo {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
-	#wrapper {
-    	padding: 40px;
-   }
+  #wrapper {
+    padding: 40px;
+  }
    
 	header h1 {
-   		text-align: center;
-    	font-size: 3rem;  
-    	margin: 0 auto;
-    	width: 100%;
-   }
+    text-align: center;
+    font-size: 3rem;  
+    margin: 0 auto;
+    width: 100%;
+  }
    
-    .form-input {
-        font-size: 1.1rem;  
-    }
+  .form-input {
+    font-size: 1.1rem;  
+  }
    
-    .signup-button {
-        font-size: 1.6rem;  
-    }
+  .signup-button {
+    font-size: 1.6rem;  
+  }
     
-    .team-logo {
-	    width: 80%
+  .team-logo {
+	  width: 80%
 	}
 }
