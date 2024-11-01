@@ -74,7 +74,7 @@ header p {
 
 /*Button Animation */
 .signup-button {
-  font-family: "Zen Dots", sans-serif;
+  font-family: "Zen Dots", Arial, sans-serif;
   display: inline-block;
   border-radius: 4px;
   background-color: #272525;
