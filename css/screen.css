@@ -37,12 +37,12 @@ header h1 {
 }
 
 header p {
-	font-weight: bold;
+  font-weight: bold;
   font-size: 1.5rem;
 }
 
 .ctxgroup {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .ctxlabel{
