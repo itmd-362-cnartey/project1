@@ -1,5 +1,5 @@
 body {
-  font-family: "Zen Dots", sans-serif;
+  font-family: "Zen Dots", Arial, sans-serif;
   margin: 0;
   padding: 15px;
   background-image: radial-gradient(#008af1,#5b19bd);
@@ -28,7 +28,7 @@ header {
 }
 
 header h1 {
-  font-family: "Libre Barcode 39 Text", system-ui;
+  font-family: "Libre Barcode 39 Text", Arial, system-ui;
   font-size: 4rem;
   color: #000000;
   font-weight: bold;
@@ -46,7 +46,7 @@ header p {
 }
 
 .ctxlabel{
-  font-family: "Zen Dots", sans-serif;
+  font-family: "Zen Dots", Arial, sans-serif;
   display:block;
   margin-bottom: 8px;
   font-size: 1.2rem;
